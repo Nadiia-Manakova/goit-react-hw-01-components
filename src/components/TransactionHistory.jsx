@@ -17,7 +17,9 @@ export const TransactionHistory = ({items}) => {
   <tbody>
           {items.map((item, index) => (
             <tr
-              className={css.name}
+              className={`${css.trgrey} ${
+                index % 2 === 0 ? css.trwhite : ''
+              }`}
             >
               <td>{item.type}</td>
               <td>{item.amount}</td>

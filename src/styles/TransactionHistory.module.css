@@ -23,3 +23,11 @@ td {
   text-align: center;
   padding: 7px 0px;
 }
+
+.trgrey {
+  background-color: lightgray;
+}
+
+.trwhite {
+  background-color: white;
+}
