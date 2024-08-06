@@ -19,7 +19,8 @@ export const TransactionHistory = ({items}) => {
           <tr
             className={`${css.trgrey} ${
             index % 2 === 0 ? css.trwhite : ''
-            }`}
+              }`}
+            key={item.id}
           >
             <td>{item.type}</td>
             <td>{item.amount}</td>
